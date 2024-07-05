@@ -58,31 +58,27 @@ This module aims to provide location wise stock levels in the POS interface whic
 
 ### Enable Real Time Inventory Management 
 
-![Enable Real Time Inventory Management](path/to/screenshot1.png)
+![Enable Real Time Inventory Management](/screenshots/real_time.png)
 
 ### POS Stock Configuration
 
-![Stock Configuration](path/to/screenshot2.png)
+![Stock Configuration](/screenshots/stock_conf_enable.png)
 
 ### View Product stock based on location
 
-![View product stock based on location](path/to/screenshot2.png)
+![View product stock based on location](/screenshots/stock_config_location.png)
 
 ### Users can see product stock by their stock location.
 
-![On-Hand Stock levels on selected location](path/to/screenshot2.png)
+![On-Hand Stock levels on selected location](/screenshots/product_by_loc.png)
 
 ### View in POS After Configuration 
 
-![POS View](path/to/screenshot2.png)
-
-### View in POS After Configuration 
-
-![POS View](path/to/screenshot2.png)
+![POS View](/screenshots/pos_interface.png)
 
 ### Real time stock update Sync Button 
 
-![Sync Button](path/to/screenshot2.png)
+![Sync Button](/screenshots/sync_button.png)
 
 
 ## Contributing
@@ -93,12 +89,4 @@ This module aims to provide location wise stock levels in the POS interface whic
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
