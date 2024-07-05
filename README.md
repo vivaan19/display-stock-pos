@@ -45,16 +45,14 @@ This module aims to provide stock levels in the POS interface which can help a P
 
     Go to `Apps` in Odoo, search for `bd_pos_stock`, and install it.
 
-## Usage
+## Configure On-Hand Stock based on POS Location
 
-1. **Configure On-Hand Stock based on POS Location:**
-
-    - First we need to Enable real time Inventory Management for POS for seamless reduction of stock-quanity from POS to back-end (enable developer mode)
-      - Navigate to `POS module` -> `Configuration` -> `Settings` -> `Inventory` -> `Enable Inventory Management In real time`
-    - POS Stock Configuration
-      - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Configuration` -> `Enable "Show Stock Qty option`
-    - Users can view product stock based on location
-      - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Locations` 
+  - First we need to Enable real time Inventory Management for POS for seamless reduction of stock-quanity from POS to back-end (enable developer mode)
+    - Navigate to `POS module` -> `Configuration` -> `Settings` -> `Inventory` -> `Enable Inventory Management In real time`
+  - POS Stock Configuration
+    - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Configuration` -> `Enable "Show Stock Qty option`
+  - Users can view product stock based on location
+    - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Locations` 
 
 ## Screenshots
 
