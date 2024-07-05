@@ -1,8 +1,9 @@
-# Display On-Hand Stock in POS (Point of Sale) Card
+# Display Location Wise On-Hand Stock in POS (Point of Sale) Card
 
 ## Description
 
-This module adds a functionality to display current on-hand stock of a particular product in the POS (Point of Sale) interface product card screen, inside product card. 
+This module adds a functionality to display location wise current on-hand stock of a particular product in the POS (Point of Sale) interface product card screen, inside product card. 
+
 This module aims to provide stock levels in the POS interface which can help a POS personell to save time for viewing the stock-levels in the back-end ERP  
 
 ## Features
@@ -37,7 +38,7 @@ This module aims to provide stock levels in the POS interface which can help a P
 4. **Update the Odoo module list:**
 
     ```bash
-    ./odoo-bin -u all -d your-database
+    ./odoo-bin --addons=addons,/path/to/custom_module/bd_pos_stock -d your_database
     ```
 
 5. **Activate the module:**
@@ -46,15 +47,14 @@ This module aims to provide stock levels in the POS interface which can help a P
 
 ## Usage
 
-1. **Configure POS Product Restrictions:**
+1. **Configure On-Hand Stock based on POS Location:**
 
-    - Navigate to `Point of Sale` -> `Configuration` -> `Point of Sale`.
-    - Select the POS configuration you want to restrict products for.
-    - In the `Product Restrictions` tab, add or remove products as needed.
-
-2. **Apply Restrictions:**
-
-    - Once configured, only the selected products will be available in the specified POS.
+    - First we need to Enable real time Inventory Management for POS for seamless reduction of stock-quanity from POS to back-end (enable developer mode)
+      - Navigate to `POS module` -> `Configuration` -> `Settings` -> `Inventory` -> `Enable Inventory Management In real time`
+    - POS Stock Configuration
+      - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Configuration` -> `Enable "Show Stock Qty option`
+    - Users can view product stock based on location
+      - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Locations` 
 
 ## Screenshots
 
