@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="bd_pos_stock.Navbar" t-inherit="point_of_sale.Navbar" t-inherit-mode="extension">
+        
+        <xpath expr="//CashierName" position="before">
+
+            <t t-if="pos.config.is_show_stock_qty">
+
+                <SyncStock />
+
+            </t>
+
+        </xpath>
+    
+    </t>
+
+</templates>

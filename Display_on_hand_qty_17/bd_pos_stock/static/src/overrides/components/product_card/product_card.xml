@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="bd_pos_stock.ProductCard" t-inherit="point_of_sale.ProductCard" t-inherit-mode="extension">
+
+        <xpath expr="//div[hasclass('product-content')]" position="inside">
+
+            <t t-if="pos.config.is_show_stock_qty">
+
+                <t t-if="props.detailed_type !== 'consu'">
+                    
+                    <span style="position: relative; font-weight: bold;">
+                        
+                        <i class="fa fa-cubes" aria-hidden="true" style="padding-right: 0.2rem; font-color: #0000FF;"></i>
+                        
+                        <t t-esc="props.true_on_hand" />
+    
+                    </span>
+
+                </t>
+
+                <t t-else="">        
+                    <t></t>
+                </t>
+
+            </t>
+
+        </xpath>
+
+    </t>
+
+</templates>

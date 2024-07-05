@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="bd_pos_stock.SyncStock">
+
+        <div class="oe_status btn btn-light rounded-0">
+            
+            <span class="pos-stock-sync" data-toggle="tooltip" data-placement="down" title="Sync Quantity" t-on-click="pos_stock_sync">
+                
+                <i class="fa fa-refresh" style='font-size: 2rem; color: #5db937;'/>
+                <span style="vertical-align: super; font-size: 1rem; margin-left: 0.5rem; font-style: italic;">Sync</span>
+            
+            </span>
+
+        </div>
+
+        
+    </t>
+
+</templates>

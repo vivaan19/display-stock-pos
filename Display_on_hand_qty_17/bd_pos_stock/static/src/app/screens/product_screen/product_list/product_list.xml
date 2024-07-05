@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="bd_pos_stock.ProductsWidget" t-inherit="point_of_sale.ProductsWidget" t-inherit-mode="extension">
+
+        <xpath expr="//ProductCard" position="attributes">
+            
+            <attribute name="true_on_hand">product.true_on_hand</attribute>
+            <attribute name="detailed_type">product.detailed_type</attribute>
+
+        </xpath>
+
+        <!-- <attribute name="onClick">
+            () => product.true_on_hand === 0 ? this.someOtherFunction(product) :
+        this.pos.addProductToCurrentOrder(product)
+        </attribute> -->
+
+
+        <!-- <xpath expr="//ProductCard" position="attributes">
+        
+            <attribute name="onClick">
+                <![CDATA[
+                    () => product.true_on_hand === 0 ? this.pos.true_on_hand_zero(product) : this.pos.addProductToCurrentOrder(product)
+                ]]>
+            </attribute>
+        
+        </xpath> -->
+
+    </t>
+
+</templates>

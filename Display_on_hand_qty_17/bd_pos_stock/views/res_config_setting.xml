@@ -1,0 +1,63 @@
+<odoo>
+  <data>
+
+    <record id="res_config_settings_view_form_pos_stock_qty" model="ir.ui.view">
+      <field name="name">res.config.settings.view.form.inherit.point_of_sale.stock.qty</field>
+      <field name="model">res.config.settings</field>
+      <field name="priority" eval="95" />
+      <field name="inherit_id" ref="point_of_sale.res_config_settings_view_form" />
+      <field name="arch" type="xml">
+
+        <!-- <xpath expr="//div[@id='pos_inventory_section']"
+          position="before">
+
+
+        </xpath> -->
+
+        <xpath expr="//block[@id='pos_inventory_section']" position="before">
+
+          <block title="Stock Configuration" id="pos_bd_stock_config">
+
+            <setting id="pos_is_show_stock_qty" string="Show Stock Qty"
+              help="Enable to see on-hand stock as per location in pos for products">
+              <field name="pos_is_show_stock_qty" />
+            </setting>
+
+            <setting title="Stock Locations" string="Stock Locations" help="Select Stock locations for pos">
+
+              <field name="pos_stock_loc_ids" domain="[('company_id', '=', company_id)]" />
+
+            </setting>
+
+          </block>
+
+          <!-- <div class="row mt16 o_settings_container" id="pos_stock_qty_fields"> -->
+
+            <!-- for qty position selction -->
+            <!-- <div class="col-12 col-lg-6 o_setting_box" id="pos_stock_qty_stock_position">
+              <div class="o_setting_right_pane">
+                <span class="o_form_label">Stock Qty Position</span>
+
+                <div class="text-muted">
+                  Select which position at which Stock QTY should be displayed in POS
+                </div>
+
+                <div class="content-group mt16">
+                  <field name="qty_pos_setting" colspan="4" nolabel="1"
+                  />
+                </div>
+
+              </div>
+            </div> -->
+
+
+          <!-- </div> -->
+
+
+        </xpath>
+
+      </field>
+    </record>
+
+  </data>
+</odoo>
