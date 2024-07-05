@@ -12,7 +12,7 @@ This module aims to provide stock levels in the POS interface which can help a P
 - Customized stock picking for accurate source and destination locations in normal and refund orders
 - Eliminated unnecessary stock visibility for consumable products in POS, streamlining the user interface
 - Developed a real-time stock sync button to update stock levels instantly from the back end without refreshing the POS screen
-- Achieved a 30% reduction in inventory discrepancies by ensuring on-hand stock in POS matches the selected location’s inventory
+- Achieved a **30%** reduction in inventory discrepancies by ensuring on-hand stock in POS matches the selected location’s inventory
 - Utilized Odoo.sh for development, staging, and production environments, enhancing reliability and stability
   
 ## Installation
@@ -52,17 +52,38 @@ This module aims to provide stock levels in the POS interface which can help a P
   - POS Stock Configuration
     - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Configuration` -> `Enable "Show Stock Qty option`
   - Users can view product stock based on location
-    - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Locations` 
+    - Navigate to `POS Module` -> `Configuration` -> `Settings` -> `Stock Configuration` -> `Stock Locations` 
 
 ## Screenshots
 
-### POS Configuration
+### Enable Real Time Inventory Management 
 
-![POS Configuration](path/to/screenshot1.png)
+![Enable Real Time Inventory Management](path/to/screenshot1.png)
 
-### Product Restrictions
+### POS Stock Configuration
 
-![Product Restrictions](path/to/screenshot2.png)
+![Stock Configuration](path/to/screenshot2.png)
+
+### View Product stock based on location
+
+![View product stock based on location](path/to/screenshot2.png)
+
+### Users can see product stock by their stock location.
+
+![On-Hand Stock levels on selected location](path/to/screenshot2.png)
+
+### View in POS After Configuration 
+
+![POS View](path/to/screenshot2.png)
+
+### View in POS After Configuration 
+
+![POS View](path/to/screenshot2.png)
+
+### Real time stock update Sync Button 
+
+![Sync Button](path/to/screenshot2.png)
+
 
 ## Contributing
 
