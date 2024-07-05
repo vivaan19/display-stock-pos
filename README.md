@@ -32,13 +32,13 @@ This module aims to provide location wise stock levels in the POS interface whic
 3. **Copy the module:**
 
     ```bash
-    cp -r /path/to/cloned/repo/16.0/bd_pos_stock /path/to/your/odoo/addons/
+    cp -r /path/to/cloned/repo/Display_on_hand_qty_17 /path/to/your/odoo/addons/
     ```
 
 4. **Update the Odoo module list:**
 
     ```bash
-    ./odoo-bin --addons=addons,/path/to/custom_module/bd_pos_stock -d your_database
+    ./odoo-bin --addons=addons,/path/to/custom_module/Display_on_hand_qty_17 -d your_database
     ```
 
 5. **Activate the module:**
@@ -88,5 +88,3 @@ This module aims to provide location wise stock levels in the POS interface whic
 3. Commit your changes (`git commit -am 'Add some feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
-
-
