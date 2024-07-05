@@ -4,7 +4,7 @@
 
 This module adds a functionality to display location wise current on-hand stock of a particular product in the POS (Point of Sale) interface product card screen, inside product card. 
 
-This module aims to provide stock levels in the POS interface which can help a POS personell to save time for viewing the stock-levels in the back-end ERP  
+This module aims to provide location wise stock levels in the POS interface which can help a POS personell to save time for viewing the stock-levels in the back-end ERP  
 
 ## Features
 
